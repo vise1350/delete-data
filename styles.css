@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+form{
+    text-align: center;
+    
+}
+button{color: #ffaa00;}
+
+div{
+
+  border: 5px solid rgb(255, 134, 5);
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+  
+  
+  text-align: center;
+}

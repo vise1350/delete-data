@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"href="styles.css"
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1>Book a call</h1>
+    <p>Book a call and our executive will call you within 1 hour</p>
+    <form action="#" onsubmit="onsignup() " >
+        <label for="name">First name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="phone">phone:</label><br>
+        <input type="text" id="phone" name="phone"><br>
+        <label for="time">time:</label><br>
+        <input type="time" id="time" name="time"><br>
+        <button type="submit" value="Submit">Submit</button>
+      </form>
+      <script>
+        function onsignup(){
+          
+            const name=document.getElementById('name').value;
+            const email=document.getElementById('email').value;
+            const phone=document.getElementById('phone').value;
+            const time=document.getElementById('time').value;
+
+            console.log(name)
+            console.log(email)
+            console.log(phone)
+            console.log(time)
+        }
+      </script>
+      <br>
+      
+      </div>
+   
+</body>
+</html>
